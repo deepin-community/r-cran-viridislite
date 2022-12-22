@@ -1,0 +1,11 @@
+
+Explanation for binary files inside source package according to
+  http://lists.debian.org/debian-devel/2013/09/msg00332.html
+
+Files: data/viridis.map.rda
+Documentation: man/viridis.map.Rd
+  ->  A data frame with the original 'viridis' and 'cividis' color maps
+      https://github.com/BIDS/colormap/blob/master/option_d.py
+      https://github.com/pnnl/cmaputil/blob/master/colormaps/cividis.txt
+
+ -- Dirk Eddelbuettel <edd@debian.org>, Wed,  7 Feb 2018 20:58:35 -0600

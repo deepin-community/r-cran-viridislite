@@ -1,0 +1,63 @@
+r-cran-viridislite (0.4.0-2) unstable; urgency=medium
+
+  * Simple rebuild for unstable following Debian 11 release
+
+  * debian/control: Set Build-Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 16 Aug 2021 17:24:57 -0500
+
+r-cran-viridislite (0.4.0-1) experimental; urgency=medium
+
+  * New upstream release (to experimental during freeze)
+
+  * debian/control: Set Build-Depends: to recent R version
+  * debian/control: Set Standards-Version: to current version  
+  * debian/control: Switch to virtual debhelper-compat (= 11)
+  * debian/compat: Removed
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 25 Apr 2021 08:57:37 -0500
+
+r-cran-viridislite (0.3.0-4) unstable; urgency=medium
+
+  * Rebuilt for r-4.0 transition
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 15 May 2020 22:06:12 -0500
+
+r-cran-viridislite (0.3.0-3) unstable; urgency=medium
+
+  * debian/control: Correct typo in Vcs-Browser:, Vcs-Git:, Homepage URLs
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 04 Jun 2018 13:27:53 -0500
+
+r-cran-viridislite (0.3.0-2) unstable; urgency=medium
+
+  * Rebuilding for R 3.5.0 transition
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Build-Depends: to 'debhelper (>= 10)'
+  * debian/control: Set Standards-Version: to current version 
+  * debian/control: Add Vcs-Browser: and Vcs-Git:
+  * debian/compat: Increase level to 9
+  * debian/control: Switch from cdbs to dh-r
+  * debian/rules: Idem
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 02 Jun 2018 15:16:57 -0500
+
+r-cran-viridislite (0.3.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  * debian/compat: Set to 9
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 07 Feb 2018 20:54:31 -0600
+
+r-cran-viridislite (0.2.0-1) unstable; urgency=low
+
+  * Initial Debian release 				(Closes: #859291)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 01 Apr 2017 12:54:28 -0500

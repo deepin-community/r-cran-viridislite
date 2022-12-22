@@ -1,0 +1,21 @@
+Source: r-cran-viridislite
+Section: gnu-r
+Priority: optional
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Build-Depends: debhelper-compat (= 11), r-base-dev (>= 4.1.1), dh-r
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/edd/r-cran-viridislite
+Vcs-Git: https://salsa.debian.org/edd/r-cran-viridislite.git
+Homepage: https://cran.r-project.org/package=viridisLite
+
+Package: r-cran-viridislite
+Architecture: all
+Depends: ${misc:Depends}, ${R:Depends}
+Description: GNU R package for color maps from matplotlib (Lite Version)
+ The viridis package provides a port of the new matplotlib color maps
+ (viridis (default), magma, plasma and inferno) to R. matplotlib
+ <http://matplotlib.org/ is a popular plotting library for
+ Python. These color maps are designed in such a way that they will
+ analytically be perfectly perceptually-uniform, both in regular form
+ and also when converted to black-and-white. They are also designed to
+ be perceived by readers with the most common form of color blindness.
